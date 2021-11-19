@@ -10,6 +10,11 @@ Simply clone the virtual environment and run the jupyter notebooks in order.  Be
 
 `jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.enabled=True --ExecutePreprocessor.timeout=-1 02_Align.ipynb`
 
+The root directories for the Chopin Mazurka dataset and for any output can be changed at the top of each relevant notebook. Please note that the output directory should be consistent across all notebooks.
+
+The AlternateAlign.ipynb notebook contains additional implementations for Segmental DTW using Numba. This notebook does not need to be run, but can be used if the cython implementations fail.
+
+The parallelized, GPU based implementation for Segmental DTW can be found at [this repository] (https://github.com/HMC-MIR/SegmentalDTWCUDA)
 
 ## Citation
 
