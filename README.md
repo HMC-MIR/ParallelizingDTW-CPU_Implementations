@@ -14,7 +14,7 @@ The root directories for the Chopin Mazurka dataset and for any output can be ch
 
 The AlternateAlign.ipynb notebook contains additional implementations for Segmental DTW using Numba. This notebook does not need to be run, but can be used if the cython implementations fail.
 
-The parallelized, GPU based implementation for Segmental DTW can be found at [this repository] (https://github.com/HMC-MIR/SegmentalDTWCUDA)
+The parallelized, GPU based implementation for Segmental DTW can be found at [this repository](https://github.com/HMC-MIR/SegmentalDTWCUDA).
 
 ## Citation
 
